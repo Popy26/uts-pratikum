@@ -1,0 +1,28 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Form</title>
+</head>
+<body>
+        <fieldset>
+            <div style="display: flex;">
+                <aside style="margin-left: 40px;">
+                    <form action="" method="POST">
+                        <table>
+                            <h2>FORM BERITA</h2>
+                            <form method="post"action="biodata.php">
+                                <br>
+                                nama mesjid:<input type="text"nama="nama mesjid"/>
+                        <br>
+                        judul berita:<textarea name="judul berita"></textarea>
+                        <br>
+                        isi berita:<textarea name="isi betita" cols="30" rows="10">
+                        </textarea>
+                        <br>
+                        penulis:<input type="text"name="penulis">
+                            </form>
+                                <td><input type="submit" name="proses" value="" style="box-shadow: 4px 3px 2px black; background-color:white;"></td>
+                                <td><input type="update" name="update" value="style" style="box-shadow: 4px 3px 2px black; background-color: white;"></td>
+                                <td>
